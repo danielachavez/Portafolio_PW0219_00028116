@@ -19,6 +19,20 @@
             -Aplicar en hover opacidad al 1.0
     */
 
+    
+    .btn{
+        border: 1px solid transparent;
+        border-radius: 0.3em;
+        box-shadow: none;
+        padding: 1em;
+        opacity: 0.8;
+        text-transform: uppercase;
+       }
+
+    btn.hover{
+       opacity: 1;
+    }
+
     /*
         Sección Tamaños
         
@@ -29,6 +43,15 @@
             -Tamaño de fuente de 1.1em
     */
 
+
+        .btn.small{
+            font-size: 0.7em;
+        }
+        .btn.big{
+            font-size: 1.1em;
+        }
+
+
     /*
         Sección Colores
 
@@ -38,6 +61,28 @@
             -sky: Fondo #00BCD4; color de texto blanco
             -purple: Fondo #673AB7; color de texto blanco
     */
+  
+        .btn.black{  
+            background-color:#1A237E;
+            color:white;
+        }
+        .btn.green{
+            background-color:#4CAF50;
+            color:white;
+     
+        }
+     
+        .btn.sky{
+            background-color:#00BCD4;
+            color:white;
+            
+        }
+     
+        .btn.purple{
+            background-color:#673AB7;
+            color:white;
+     
+        }
 
     /*
         Sección Bordes
@@ -53,3 +98,29 @@
     */
 
 
+    
+    button.btn.border{
+       background-color: transparent;
+       border-color:#1A237E;
+       color:#1A237E;
+      
+    }
+    
+    
+    button.border.green{
+        border-color:#4CAF50;
+        color:#4CAF50;
+      
+    }
+    
+    button.border.sky{
+       border-color:#00BCD4;
+       color:#00BCD4;
+     
+    }
+    
+    button.border.sky{
+       border-color:#673AB7;
+       color:#673AB7;
+     
+    }
