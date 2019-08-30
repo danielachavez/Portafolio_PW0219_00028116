@@ -99,7 +99,7 @@
 
 
     
-    button.btn.border{
+    .btn.border{
        background-color: transparent;
        border-color:#1A237E;
        color:#1A237E;
@@ -107,19 +107,19 @@
     }
     
     
-    button.border.green{
+    .border.green{
         border-color:#4CAF50;
         color:#4CAF50;
       
     }
     
-    button.border.sky{
+    .border.sky{
        border-color:#00BCD4;
        color:#00BCD4;
      
     }
     
-    button.border.sky{
+    .border.sky{
        border-color:#673AB7;
        color:#673AB7;
      
