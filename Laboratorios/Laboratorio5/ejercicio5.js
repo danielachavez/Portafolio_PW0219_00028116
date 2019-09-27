@@ -19,5 +19,5 @@ function palindroma(palabra) {
   }
 }
 
-palindroma("ana");
-invertido
+palindroma("maria");
+/*invertido
