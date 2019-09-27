@@ -16,8 +16,7 @@ function palindroma(palabra) {
     if (isPalindroma == true) {
       console.log("es palindroma");
     }
-  }
+  }invertido
 }
 
 palindroma("maria");
-invertido
