@@ -2,12 +2,12 @@
 
 function palindroma(palabra) {
   var isPalindroma = true;
-  var original = palabra.split("");
+  var origi = palabra.split("");
   var invertido = palabra.split("").reverse();
 
 
-  for (var i = 0; i < original.length; i++) {
-    if (invertido[i] != original[i]) {
+  for (var i = 0; i < origi.length; i++) {
+    if (invertido[i] != origi[i]) {
       console.log("no es palindroma");
       isPalindroma = false;
       break;
@@ -20,4 +20,4 @@ function palindroma(palabra) {
 }
 
 palindroma("maria");
-/*invertido
+invertido
